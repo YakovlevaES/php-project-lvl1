@@ -2,7 +2,7 @@
     "name": "hexlet/code",
     "description": "My First Hexlet Project \"Brain Games\"",
     "type": "project",
-    "license": "MIN",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
@@ -14,5 +14,8 @@
             "email": "yakovleva_0593@mail.ru"
         }
     ],
-    "require": {}
+    "require": {},
+    "bin": [
+	      "bin/brain-games"
+    ]
 }
