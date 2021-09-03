@@ -1,0 +1,18 @@
+{
+    "name": "hexlet/code",
+    "description": "My First Hexlet Project \"Brain Games\"",
+    "type": "project",
+    "license": "MIN",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yakovleva Elizaveta",
+            "email": "yakovleva_0593@mail.ru"
+        }
+    ],
+    "require": {}
+}
