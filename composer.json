@@ -14,8 +14,15 @@
             "email": "yakovleva_0593@mail.ru"
         }
     ],
-    "require": {},
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.13"
+    },
     "bin": [
 	      "bin/brain-games"
-    ]
+    ],
+    "autoload": {
+	    "files": [
+		"src/Cli.php"
+	]
+    }
 }
