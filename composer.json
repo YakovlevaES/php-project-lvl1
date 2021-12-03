@@ -6,7 +6,10 @@
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
-        }
+        },
+	"files": [
+		"src/Cli.php"
+	]
     },
     "authors": [
         {
@@ -20,9 +23,7 @@
     "bin": [
 	      "bin/brain-games"
     ],
-    "autoload": {
-	    "files": [
-		"src/Cli.php"
-	]
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6"
     }
 }
